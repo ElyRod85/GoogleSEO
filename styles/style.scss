@@ -175,7 +175,7 @@ main {
     }
 
     .code-block { 
-        p { font-family: 'Courier New', monospace; line-height: 1; font-weight: bold; }
+        p { font-family: 'Courier New', monospace; line-height: 1; font-weight: bold; hyphens: auto; }
     }
 
 
@@ -349,6 +349,10 @@ article.milestone { scroll-margin-top: 90px;
         width: fit-content; padding: 3px 15px; border: 2px solid var(--medium-gray);
         font-size: 15px; font-weight: 700; font-style: normal;
     }
+}
+
+#milestone1, #milestone2, #milestone3, #milestone4 {
+    width: 100%; margin: 0 auto;
 }
 
 #milestone2, #milestone3 {
